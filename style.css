@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    height:80px;
+    color: white;
+    box-shadow: 10px 0px 10px 10px #afafaf;
+}
+
+.contentTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:700px;
+    height:650px;
+    border:1px solid black;
+}
+
+.containerHeader {
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    text-align: center;
+    width:100%;
+}
+
+.inputContent {
+    width:600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:15px;
+    margin-top: 40px;
+}
+
+
+.labels {
+    width:70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkboxParent {
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+}
+
+.checkbox {
+    display: flex;
+    gap:10px;
+}
+
+.buttons {
+    width:70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding:3px 18px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.radio:hover {
+    cursor: pointer;
+}

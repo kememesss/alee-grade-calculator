@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Online Grade Calculator</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1>
+
+        </h1>
+    </div>
+
+    <main>
+        <div class="contentTitle">
+            <h1>
+                INSERT SCHOOL NAME
+            </h1>
+        </div>
+
+        <div class="container">
+
+            <div class="containerHeader">
+                <h2>
+                    Online Grade Calculator
+                </h2>
+
+                <h4>
+                    Student Grades
+                </h4>
+            </div>
+
+
+            <div class="inputContent">
+                <div class="labels">
+                    <label for="fname">First name</label>
+                    <input type="text" name="fname">
+                </div>
+
+                <div class="labels">
+                    <label for="course">Course</label>
+                    <input type="text" name="course">
+                </div>
+
+                <div class="labels">
+                    <label for="subject">Subject</label>
+                    <input type="text" name="subject">
+                </div>
+
+                <div class="labels">
+                    <label for="pgrade">Prelim Grade</label>
+                    <input type="text" name="pgrade">
+                </div>
+
+                <div class="labels">
+                    <label for="mgrade">Midterm Grade</label>
+                    <input type="text" name="mgrade">
+                </div>
+
+                <div class="labels">
+                    <label for="fgrade">Final Grade</label>
+                    <input type="text" name="fgrade">
+                </div>
+
+
+                <div class="labels">
+                    <label for="mode">Mode</label>
+
+                    <div class="checkboxParent">
+                        <div class="checkbox">
+                            <input class="radio" type="radio" name="radiobutton">
+                            <label for="average">Average</label>
+                        </div>
+
+                        <div class="checkbox">
+                            <input class="radio" type="radio" name="radiobutton">
+                            <label for="percentage">Percentage</label>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="labels">
+                    <label for="average">Average</label>
+                    <input type="text" name="average">
+                </div>
+                <div class="labels">
+                    <label for="fremark">Final Remark</label>
+                    <input type="text" name="fremark">
+                </div>
+
+                <div class="buttons">
+                    <button>COMPUTE</button>
+                    <button>CLEAR</button>
+                    <button><a href="">ABOUT</a></button>
+                </div>
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+    </main>
+
+
+    <script>
+        display = document.getElementById('outputDiv');
+        display.innerHTML = 'Your Number Is: ';
+
+        function clear() {
+            document.getElementById("outputDiv").innerHTML = "";
+        }
+    </script>
+
+</body>
+
+</html>
